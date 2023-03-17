@@ -1,6 +1,11 @@
 # Bayesian-Directional-Tilted-ADCP
 routines to generate directional spectra from beam-wise velocity measurements from an ADCP
 
+# Dependencies
+This code will not work without the MATLAB functions given in Matsuba et al. (2022). 
+They are available from https://figshare.com/articles/dataset/Dataset_for_Reconstruction_of_Directional_Spectra_of_Infragravity_Waves/17157902/1
+the 'functions' folder needs to be downloaded and available in the path.
+
 # Introduction and References
 
 The Bayesian directional method (Hashimoto and Konbune 1988) is used to generate directional spectra from the beam-wise velocity measurements from Nortek Signature1000 ADCP.
